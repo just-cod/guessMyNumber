@@ -35,7 +35,7 @@ const secretNum = Math.floor(Math.random() * 20) + 1;
 let newSecNum = secretNum;
 
 // function to tell the user the  input is correct or not
-const changeMessage = function () {
+const changeMessage = () => {
   let newScore = score.textContent;
 
   // giving hint to the user that the number is correct or not
@@ -93,7 +93,7 @@ const changeMessage = function () {
 };
 
 // function to reset the values
-const resetValue = function () {
+const resetValue = () => {
   // to reset message
   message.textContent = `start guessing...`;
 
