@@ -34,6 +34,8 @@ const secretNum = Math.floor(Math.random() * 20) + 1;
 // storing the secretNum
 let newSecNum = secretNum;
 
+const msg = guessBox ?? "please enter the value";
+
 // function to tell the user the  input is correct or not
 const changeMessage = () => {
   let newScore = score.textContent;
